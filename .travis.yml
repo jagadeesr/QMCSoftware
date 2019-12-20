@@ -28,6 +28,7 @@ before_install:
 - conda install $CONDA_DEPS
 - cd python_prototype
 - pip install -r requirements.txt
+- pip install codecov
 
 install:
 # - python python_prototype/setup.py install
@@ -36,3 +37,8 @@ install:
 script:
 - python -m unittest discover -s test/fasttests
 - python -m unittest discover -s test/longtests
+- coverage run --source=test/fasttests -m unittest discover -s test/fasttests
+
+
+after_success:
+- codecov
