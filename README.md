@@ -1,7 +1,6 @@
 [![Build Status](https://travis-ci.com/jagadeesr/QMCSoftware.svg?branch=master)](https://travis-ci.com/jagadeesr/QMCSoftware)
+[![codecov](https://codecov.io/gh/jagadeesr/QMCSoftware/branch/master/graph/badge.svg)](https://codecov.io/gh/jagadeesr/QMCSoftware)
 
-.. image:: https://codecov.io/gh/codecov/QMCSoftware/branch/master/graph/badge.svg
-  :target: https://codecov.io/gh/codecov/QMCSoftware
   
 # Quasi-Monte Carlo Community Software
 
